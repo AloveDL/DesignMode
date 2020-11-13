@@ -4,7 +4,7 @@ package createType.abstractFactory;
  * @author SunDongdong
  */
 public interface AbstractFactory {
-	public IKeyboard createKeyboard();
-	public IMouse createMouse();
+	public abstract IKeyboard createKeyboard();
+	public abstract IMouse createMouse();
 }
 
